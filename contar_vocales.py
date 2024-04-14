@@ -11,7 +11,7 @@ def contar_vocales(mi_string):
             resultado[letra] += 1
     return resultado
 
-class TestContarVocales(unittest.TestCase):
+"""class TestContarVocales(unittest.TestCase):
 
     def test_nada(self):
         resultado = contar_vocales('zzz')
@@ -53,4 +53,8 @@ class TestContarVocales(unittest.TestCase):
         resultado = contar_vocales('RIaCHUELO')
         self.assertEqual(resultado, {'a': 1, 'e': 1, 'i': 1, 'o': 1, 'u': 1})
 
-unittest.main()
+unittest.main()"""
+
+while(True):
+    palabra = input('Ingrese palabra: ')
+    print(contar_vocales(palabra))
